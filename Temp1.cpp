@@ -32,7 +32,7 @@ int main()
 {   
 /*vector v1(3);
 v1.arr[0] = 4;
-v1.arr[1] = 3;
+v1.arr[1] = 3; //blahhhhhhhhhhh
 v1.arr[2] = 1;
 
 vector v2(3);
