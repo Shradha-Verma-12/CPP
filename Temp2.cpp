@@ -1,13 +1,7 @@
 #include <iostream>
 using namespace std;
 /*
-template <class T1, class T2)
-class nameofclass
-{
-
-} 
-
-
+CLASS TEMPLATES WITH MULTIPLE PARAMETERS (ONE, MORE THAN TWO)
 */
 template <class T1, class T2>
 class myclass{
