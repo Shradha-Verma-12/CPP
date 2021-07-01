@@ -29,6 +29,7 @@ class myclass{
   
 };
 int main()
-{ myclass<int, char> obj(1,'c');
- return 0;
+{ myclass<int,float> obj(1,1.8);
+  obj.display();
+  return 0;
 }
