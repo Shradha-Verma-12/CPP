@@ -8,7 +8,7 @@ class vector
     
     T *  arr;
     int size; 
-    vector(int m)   
+    vector(int m)
     {
         size =m;
         arr = new T[size];
