@@ -7,7 +7,7 @@ class vector
     public:
     
     T *  arr;
-    int size;
+    int size; 
     vector(int m) 
     {
         size =m;
