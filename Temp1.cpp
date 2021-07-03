@@ -2,13 +2,13 @@
 using namespace std;
 
 template <class T>
-class vector
+class vector 
 {
     public:
     
     T *  arr;
     int size;
-    vector(int m)
+    vector(int m) 
     {
         size =m;
         arr = new T[size];
