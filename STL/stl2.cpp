@@ -5,7 +5,21 @@ using namespace std;
 
 int main()
 {
-    vector<int> v;
+    vector<int> v; 
+    vector<int> a(5,1);  //Initializes all 5 elements of the vector as 1.
+    vector<int> b(a); //Stores the elements of a.
+    cout<<"Print b: " ;
+    for (int i: b)
+    {
+        cout<<i<<" ";
+    }
+    cout<<endl;
+    cout<<"Print a: ";
+    for (int i: a)
+    {
+        cout<<i<<" ";
+    }
+    cout<<endl;
     cout<<"Capacity-> "<< v.capacity()<<endl;
 
     v.push_back(1);
