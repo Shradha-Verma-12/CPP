@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     deque <int> d;
+    cout<<d.size()<<endl;
     d.push_back(1); //inserts the element at the end
     d.push_front(2); //insert the element at the beginning 
     d.push_back(12); //inserts the element at the end after 1
@@ -30,6 +31,9 @@ int main()
     cout<<"Print front element: "<<d.front()<<endl; //2
     cout<<"Print back element: "<<d.back()<<endl; //1
     cout<<"Empty or not: "<<d.empty()<<endl;
+    cout<<"Before erase: "<<d.size()<<endl;
+    d.erase(d.begin(), d.begin()+1); //d.begin will start the deque and giving +1 provides the range
+    cout<<"After erase: "<<d.size()<<endl;
     
  return 0;
 }
