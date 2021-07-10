@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-//STACK STL
+//STACK (DS) STL
 int main()
 
 { stack <string> sample;
