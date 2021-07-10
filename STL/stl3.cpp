@@ -1,5 +1,6 @@
 #include <iostream>
 #include <deque>
+// DEQUE (DS) STL
 using namespace std;
 int main()
 {
