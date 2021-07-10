@@ -1,6 +1,6 @@
 #include <iostream>
 #include <list>
-//LIST STL
+//LIST (DS) STL
 using namespace std;
 int main()
 {
