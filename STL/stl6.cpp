@@ -2,7 +2,7 @@
 #include <queue>
 using namespace std;
 
-//QUEUE STL
+//QUEUE (DS) STL
 int main() 
 {
   queue <string> sample;
