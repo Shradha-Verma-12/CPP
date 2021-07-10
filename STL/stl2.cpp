@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-//VECTOR
+//VECTOR (DS) STL
 
 int main()
 {
